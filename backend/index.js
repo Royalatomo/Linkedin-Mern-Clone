@@ -1,9 +1,10 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+require("dotenv").config();
 
 // config
-const url = "mongodb://localhost:27017/linkedin";
+const url = process.env.MONGO_LINK;
 mongoose.connect(url, { useNewUrlParser: true });
 const con = mongoose.connection;
 
