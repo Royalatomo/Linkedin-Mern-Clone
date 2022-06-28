@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ffffff;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  font-family: sans-serif;
+  --open-sans-font: "Open Sans", sans-serif;
+  --container-size: 1240px;
+  --primary-color: #0a66c2;
+  --light-primary-color: #0073b1;
+  --ligth-black: #181818;
+  --light-gray: #dddddd;
+  --normal-gray: #8080805c;
+  --dark-gray: #666666;
+  --blackish-gray: #3d3d3c;
+  --light-white: #efefef;
+  --dark-white: #e5e5e5;
+  --quick-transition: all 0.1s linear;
+  --slow-transition: all 0.2s linear;
+  --brown-color: #8f5849;
+  --light-brown: #b44526;
+  --light-shadow: 0 0 2px;
+  --bright-orange: #e7a33e;
+
+  --like-color: #378fe9;
+  --celebrate-color: #6dae4f;
+  --support-color: #a248b3;
+  --love-color: #df704d;
+  --insightful-color: #d88100;
+  --curious-color: #bc0303;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  width: fit-content;
+}
+
+button {
+  background-color: white;
+  border: none;
+
+}
+
+.fixed-bg {
+  overflow: hidden;
+}
