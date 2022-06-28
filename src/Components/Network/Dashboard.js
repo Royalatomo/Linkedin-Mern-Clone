@@ -44,6 +44,7 @@ const ReqBtn = ({ userId, token, update, deInfo }) => {
     user.remove();
     if (hr) hr.remove();
     Request(`${API}/api/user/update/accept-network`, "POST", userId, update);
+    Request(`${API}/api/user/update/following`, "POST", userId, update);
     deInfo();
   };
 
