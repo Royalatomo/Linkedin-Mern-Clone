@@ -66,7 +66,7 @@ const ForgetPass = () => {
       setErr("no password is given");
     }
     const req = await fetch(
-      `http://localhost:5000/api/user/forgot-pass/reset`,
+      `${API}/api/user/forgot-pass/reset`,
       {
         method: "POST",
         headers: {
