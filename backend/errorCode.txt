@@ -1,0 +1,40 @@
+0: wrong username format
+1: wrong email format
+2: Username/Email not found
+3: Password Is Incorrect
+4: username already exist
+5: email already exist
+6: no code is send for this email
+7: wrong code
+8: wait 10s before resending code
+9: Unauthozed Request
+10: Invalid user id
+11: Invalid token
+12: No post for this user
+13: Page out of index
+14: Either give text or imgs
+15: Invalid Post Id
+16: Invalid Comment Id
+17: No comment for this post
+18: Missing field options
+19: No replies for this comment
+20: Choose user other than you
+21: User already followed
+22: No postId found
+23: No user in followers
+24: No user in following
+25: Request already send
+26: User Already in Network
+27: No user in network reqs
+28: No user in network
+29: Feed is empty
+30: Invalid Extension
+31: Something went wrong
+32: No post found
+33: No user found
+34: No option specified
+35: Invalid Posting user Id
+36: Invalid action option
+37: No action on this post
+38: No action for this user
+40: No user in send reqs
