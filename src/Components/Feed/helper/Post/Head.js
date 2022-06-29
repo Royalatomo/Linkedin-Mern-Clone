@@ -6,7 +6,7 @@ import { useSelector } from "react-redux"; // redux
 import { ProfileImgDiv, ProfileInfoDiv, PostTimeDiv } from "./Styles/HeadStyled";
 
 // ENV
-import { API, PROFILE_IMG } from "../../../../env";
+import { API, PROFILE_IMG, HEADLINE } from "../../../../env";
 
 const PostHead = (props) => {
   const { profileUrl, name, headline, time, imgViewer, postId } = props;
@@ -57,7 +57,7 @@ const PostHead = (props) => {
             </button>
           )}
         </div>
-        <p className="headline">{headline}</p>
+        <p className="headline">{headline || HEADLINE}</p>
 
         <PostTimeDiv className="time-container">
           <p className="post-date">{time}</p>
